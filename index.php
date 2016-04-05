@@ -7,6 +7,8 @@
  *
  *-->
 
+ <!-- a simple application for adding content in a webpage-->
+
 <html lang="en">
 
   <head>
@@ -20,6 +22,8 @@
 				  include_once('cms.php');
 
 				  //instantiate objects from the class cms and connect to db
+				  //after connecting display instructions for user.
+
 				  $obj = new CMS();
 				  $obj->host = 'localhost';
 				  $obj->username = 'root';

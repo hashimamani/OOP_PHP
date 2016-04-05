@@ -9,6 +9,9 @@
 
 
 
+<!-- a simple application for adding content in a webpage-->
+
+
 <?php
 
 class CMS {
@@ -18,7 +21,7 @@ class CMS {
   var $table;
 
 
-  //select fro database and display
+  //select from database and display
 
 public function display_public() {
 
@@ -45,7 +48,7 @@ ENTRY_DISPLAY;
 
     <h2>Page under construction</h2>
     <p>
-     add an entry to help me out.
+     add an entry to help out.
     </p>
 
 ENTRY_DISPLAY;
@@ -63,7 +66,7 @@ ADMIN_OPTION;
   }
 
 
-  //display a frorm for input.
+  //display a form for input.
 
 public function display_admin() {
 
